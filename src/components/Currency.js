@@ -3,13 +3,13 @@ import { AppContext } from '../context/AppContext';
 
 const Currency = () => {
 
-  //get current global state
+  //global state
   const { currency, dispatch } = useContext(AppContext);
 
-  //state hook update our component
+  //update component
   const [curCur, setcurCur] = useState(false);
 
-  //update currency in global state
+  //update global currency
   const setCurrencyHandler = (currency) => {
     dispatch({
       type: 'CHG_CURRENCY',

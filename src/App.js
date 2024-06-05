@@ -10,6 +10,7 @@ import AllocationForm from './components/AllocationForm';
 import RemainingBudget from './components/Remaining';
 
 const App = () => {
+    //Include currency in the return
     return (
         <AppProvider>
             <div className='container'>

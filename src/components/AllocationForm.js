@@ -32,7 +32,7 @@ const AllocationForm = (props) => {
                 });
             }
     };
-
+    //Include currency in the return
     return (
         <div>
             <div className='row'>

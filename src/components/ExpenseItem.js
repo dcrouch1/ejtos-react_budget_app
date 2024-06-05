@@ -34,7 +34,7 @@ const ExpenseItem = (props) => {
             payload: expense
         });
     }
-
+    // update return to included current currency
     return (
         <tr>
         <td>{props.name}</td>
